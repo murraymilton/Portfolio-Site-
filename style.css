@@ -26,8 +26,16 @@ body {
   transform: translate(-50%, -50%);
 }
 
+.fa-user-circle-o,
+.fa-briefcase,
+.fa-superpowers,
+.fa-envelope {
+  font-size: 20px;
+}
+
 .social {
   list-style: none;
+  font-size: 40px;
 }
 
 a:link {
@@ -41,7 +49,6 @@ a:visited {
 
 a:hover {
   color: #0062ff;
-  font-size: 20px;
 }
 
 a:active {
