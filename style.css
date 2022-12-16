@@ -11,6 +11,13 @@ body {
   background-color: whitesmoke;
 }
 
+.main_menu {
+  display: flex;
+  flex-direction: column;
+  flex-flow: column;
+  padding-left: 0;
+}
+
 .loader {
   position: fixed;
   top: 0;
@@ -36,6 +43,9 @@ body {
 .social {
   list-style: none;
   font-size: 40px;
+  display: flex;
+  flex-direction: row;
+  padding-left: 0;
 }
 
 .main-menu_top {
@@ -43,6 +53,10 @@ body {
   overflow: hidden;
 }
 
+.main-menu_nav {
+  display: flex;
+  flex-direction: column;
+}
 /* Rotating Logo */
 
 .rotate_01 {
