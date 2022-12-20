@@ -54,8 +54,7 @@ body {
 }
 
 .main-menu_nav {
-  display: flex;
-  flex-direction: column;
+  display: inline-block;
 }
 /* Rotating Logo */
 
