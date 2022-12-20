@@ -4,18 +4,29 @@ html {
   box-sizing: border-box;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   margin: 0;
   min-height: 100vh;
   font-family: "Noto Sans JP", sans-serif;
-  background-color: whitesmoke;
+  background-color: #06283d;
+  position: relative;
+  color: white;
 }
 
 .main_menu {
-  display: flex;
-  flex-direction: column;
-  flex-flow: column;
-  padding-left: 0;
+}
+
+.logo {
+  /* display: inline-block; */
+}
+
+.dev-title {
+  /* display: inline-block; */
 }
 
 .loader {
@@ -43,9 +54,7 @@ body {
 .social {
   list-style: none;
   font-size: 40px;
-  display: flex;
-  flex-direction: row;
-  padding-left: 0;
+  /* display: inline-block; */
 }
 
 .main-menu_top {
@@ -54,14 +63,23 @@ body {
 }
 
 .main-menu_nav {
-  display: inline-block;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  color: #ffffff;
 }
 
+nav {
+  color: #ffffff;
+}
 nav a:link {
-  background-color: #0062ff;
   font-size: 20px;
-  margin: 20px;
-  display: inline-block;
+  margin-right: 10px;
+  right: 50px;
+  color: white;
+}
+a {
+  color: #ffffff;
 }
 /* Rotating Logo */
 
@@ -86,6 +104,7 @@ nav a:link {
   top: 50%;
   left: 50%;
   width: 150px;
+  height: auto;
   /* height: 150px; */
   /* margin: -60px 0 0 -280px; */
   -webkit-transition: -webkit-transform 1s;
@@ -114,7 +133,7 @@ nav a:link {
 }
 
 a:link {
-  color: black;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -127,6 +146,6 @@ a:hover {
 }
 
 a:active {
-  color: black;
+  color: #fff9f9;
   text-decoration: none;
 }
