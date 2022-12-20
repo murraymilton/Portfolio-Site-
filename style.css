@@ -56,6 +56,13 @@ body {
 .main-menu_nav {
   display: inline-block;
 }
+
+nav a:link {
+  background-color: #0062ff;
+  font-size: 20px;
+  margin: 20px;
+  display: inline-block;
+}
 /* Rotating Logo */
 
 .rotate_01 {
